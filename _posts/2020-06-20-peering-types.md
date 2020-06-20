@@ -6,7 +6,13 @@ description: Our Peering Types in DN42 / 我们在 DN42 中的对等互联类型
 type: Document
 ---
 
-## 
+## Default / 默认
+
+StrExp considers all requests by default to be of the Transit type unless otherwise specified, and believes that this will help improve the decentralization level of the entire network.
+
+---
+
+StrExp 默认认为所有的请求，除非特别指定，均为 Transit 类型，并相信这样有助于提升整个网络的去中心化水平。
 
 ## Transit
 
