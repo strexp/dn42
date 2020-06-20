@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: StrExp DN42
+url: "https://dn42.strexp.net/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
@@ -10,15 +10,15 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: Knowledge base for DN42 of StrExp
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Strategic Explorations
+  email: info@strexp.net
+  twitter: StrategicExp# twitter username without the @ symbol
 social:
-  name: Base Template
+  name: GitHub
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://github.com/strexp
 
 # -----
 # Build
