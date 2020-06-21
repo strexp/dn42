@@ -61,10 +61,10 @@ bw = min(up,down) (for asymmetric connections) / (对于非对称带宽链路)
 ## Tunnel Type / 隧道类型
 
 - (64511, 31) :: not encrypted / 未加密
-(64511, 32) :: encrypted with unsafe vpn solution / 使用非安全 VPN 加密
-(64511, 33) :: encrypted with safe vpn solution (but no PFS - the usual OpenVPN p2p configuration falls in this category) / 使用安全的 VPN 解决方案加密（但没有 PFS - 常规的 OpenVPN p2p 配置属于此类）
-(64511, 34) :: encrypted with safe vpn solution with PFS (Perfect Forward Secrecy) / 使用安全的 VPN 解决方案和 PFS（完全前向保密）进行加密
-(64511, 35) :: physical connection / 物理链路
+- (64511, 32) :: encrypted with unsafe vpn solution / 使用非安全 VPN 加密
+- (64511, 33) :: encrypted with safe vpn solution (but no PFS - the usual OpenVPN p2p configuration falls in this category) / 使用安全的 VPN 解决方案加密（但没有 PFS - 常规的 OpenVPN p2p 配置属于此类）
+- (64511, 34) :: encrypted with safe vpn solution with PFS (Perfect Forward Secrecy) / 使用安全的 VPN 解决方案和 PFS（完全前向保密）进行加密
+- (64511, 35) :: physical connection / 物理链路
 
 ---
 
