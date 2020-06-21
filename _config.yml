@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: StrExp DN42
+title: SE DN42 Network
 url: "https://dn42.strexp.net/"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base for DN42 of StrExp
+description: Strategic Explorations in DN42
 author:
   name: Strategic Explorations
   email: info@strexp.net
