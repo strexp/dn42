@@ -70,3 +70,8 @@ bw = min(up,down) (for asymmetric connections) / (对于非对称带宽链路)
 
 ## Local Pref
 
+Our local preference will be calculated by the following formula:
+
+我们的 local preference 将通过下列公式计算：
+
+> bgp_local_pref = 10000 + 100 * dn42_bandwidth + 50 * (10-dn42_latency)-200 * bgp_path.len;
